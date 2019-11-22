@@ -48,7 +48,7 @@ var url = "mongodb://localhost:27017/mydb"
             if(err) console.error("insertMany " + err);
             console.log("Number of inserted documents: " + res.insertedCount);
             // res contains information about what's inserted into the db
-            console.log(res);
+            console.log("hej " + res);
         });
 
         db.close;
